@@ -1,8 +1,7 @@
 {
-  "name": "HelloWorld",
-  "private": true,
-  "version": "0.0.0",
-  "description": "Hello World",
+  "name": "@demofeed/demopkg",
+  "version": "0.1.1",
+  "description": "Microsoft javascript pipeline demo",
   "main": "server.js",
   "author": {
     "name": "",
