@@ -19,16 +19,12 @@ steps:
 - task: Npm@1
   inputs:
     command: 'install'
-    customRegistry: 'useFeed'
-    customFeed: '42456214-198e-4b27-b85f-3702d35610f0/5f83eac8-bfdd-4e6d-a9c8-490987e4c58f'
 
 - script: |
     npm run build
   displayName: 'npm install and build'
-
 - task: Npm@1
   inputs:
     command: 'publish'
     publishRegistry: 'useFeed'
     publishFeed: '42456214-198e-4b27-b85f-3702d35610f0/5f83eac8-bfdd-4e6d-a9c8-490987e4c58f'
-
