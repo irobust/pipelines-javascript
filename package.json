@@ -1,6 +1,6 @@
 {
   "name": "@demofeed/demopkg",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Microsoft javascript pipeline demo",
   "main": "server.js",
   "author": {
